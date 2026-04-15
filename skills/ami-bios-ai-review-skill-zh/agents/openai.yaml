@@ -1,0 +1,7 @@
+interface:
+  display_name: "AMI BIOS AI 审查（中文）"
+  short_description: "按文件类型审查 AMI BIOS / Aptio 变更"
+  default_prompt: "使用 $ami-bios-ai-review-zh 对当前 AMI BIOS / Aptio 变更执行按文件类型分流的 Security、Style、Functional 与 Aggregator 审查，并用中文输出结果。"
+
+policy:
+  allow_implicit_invocation: true
